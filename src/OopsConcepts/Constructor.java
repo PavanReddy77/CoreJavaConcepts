@@ -16,17 +16,17 @@ public class Constructor
 	int i;
 	int j;
 	
-	//Default Constructor initializing Non-Static Variables
+	//Default Constructor initializing Non-Static Variables.
 	Constructor()
 	{
 		i=10;
 		j=20;
 	}
 
-	Constructor(int a, int b)
+	Constructor(int a)
 	{
 		System.out.println("One Argument Constructor");
-		System.out.println(a+b);
+		System.out.println(a);
 	}
 
 	Constructor(String m, int n)
@@ -37,12 +37,12 @@ public class Constructor
 	
 	public static void main(String[] args)
 	{
-		Constructor construct1 = new Constructor();
-		System.out.println(construct1.i);
-		System.out.println(construct1.j);
+		Constructor constructor1 = new Constructor();
+		System.out.println(constructor1.i);
+		System.out.println(constructor1.j);
 		
-		Constructor construct2 = new Constructor(20, 30);
+		Constructor constructor2 = new Constructor(20);
 		
-		Constructor construct3 = new Constructor("Tom", 30);
+		Constructor constructor3 = new Constructor("Tom", 30);
 	}
 }

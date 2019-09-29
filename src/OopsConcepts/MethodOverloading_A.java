@@ -1,6 +1,6 @@
 package OopsConcepts;
 
-public class MethodOverloading
+public class MethodOverloading_A
 {
 	//Creating or Developing multiple methods with same method name but different signature.
 	//Different signature means:
@@ -39,16 +39,5 @@ public class MethodOverloading
 	public static void Hide(int a)
 	{
 		System.out.println("Static Method with 1 Int Arguments");
-	}
-	
-	public static void main(String[] args) 
-	{
-		MethodOverloading.Hide(); //Calling Static Methods using Class Name
-		MethodOverloading.Hide(5);
-		System.out.println("****************************");
-		MethodOverloading overload = new MethodOverloading(); //Creating an Object to call Non-Static Methods
-		overload.Show();
-		overload.Show(5, 10);
-		overload.Show("Java", "Selenium");
 	}
 }

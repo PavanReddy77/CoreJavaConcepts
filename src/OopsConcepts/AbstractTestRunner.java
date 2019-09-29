@@ -10,7 +10,7 @@ public class AbstractTestRunner
 		HDFCBank.credit();
 		HDFCBank.funds();
 		
-		//Dynamic Polymorphism <<Since We cannot Create an Object for Abstract Class>>
+		//Dynamic Polymorphism <<Since We cannot Create an Object for Abstract Class>>.
 		//Here We are Creating Reference for Parent Class and Accessing Methods.
 		AbstractBank Bank = new AbstractHDFCBank();
 		Bank.loan();
