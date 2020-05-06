@@ -1,4 +1,4 @@
-package JavaConceptsExamples;
+package JavaConcepts;
 
 import java.text.SimpleDateFormat;
 
